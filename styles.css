@@ -6,46 +6,53 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    width: 100%;
+    background-image:url("./Images/stock-vector-abstract-green-particle-background-flow-wave-with-dot-landscape-digital-data-structure-future-1902120445.jpg") ;
 }
 
 #container {
     text-align: center;
-    background-color: #fff;
+    background-color: rgba(156, 143, 155, 0.6);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    width: 50%;
 }
 
 h1 {
-    margin-bottom: 20px;
-    color: #333;
+    margin-bottom: 50px;
+    color: #021702;
+    font-size: 50px;
+    font-weight: 20px;
 }
 
 #text-input {
     padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin-bottom: 40px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 25px;
+    width: 65%;
 }
 
 #check-btn {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #092403;
+    color: #f6fcf4;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 25px;
+    font-weight: 5px;
 }
 
 #check-btn:hover {
-    background-color: #0056b3;
+    background-color: #1a9d08;
 }
 
 #result {
     margin-top: 20px;
-    font-size: 18px;
-    color: #333;
+    font-size: 30px;
+    color: #061c11;
 }
