@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+    font-family: Arial, sans-serif;    
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    display: block;
+    height: 100vh;  
+    text-align: center;
     width: 100%;
-    background-image:url("./Images/stock-vector-abstract-green-particle-background-flow-wave-with-dot-landscape-digital-data-structure-future-1902120445.jpg") ;
+    background-image:url("./Images/d8db71ccfa28d605b7c4cdb475881c27-abstract-bokeh-circles-green-background.jpg");
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #container {
@@ -17,6 +17,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 50%;
+    margin-left: 20rem;
 }
 
 h1 {
